@@ -2,11 +2,6 @@ module github.com/taskcluster/taskcluster/v25
 
 go 1.13
 
-// https://bugzilla.mozilla.org/show_bug.cgi?id=1580513
-replace gopkg.in/yaml.v2 => github.com/go-yaml/yaml v0.0.0-20181115110504-51d6538a90f8
-
-replace gopkg.in/check.v1 => github.com/go-check/check v0.0.0-20190902080502-41f04d3bba15
-
 require (
 	github.com/Flaque/filet v0.0.0-20190209224823-fc4d33cfcf93
 	github.com/Microsoft/go-winio v0.4.14
@@ -53,7 +48,7 @@ require (
 	golang.org/x/sys v0.0.0-20200302150141-5c8b2ff67527
 	golang.org/x/tools v0.0.0-20200302155637-b1e4e04173e0
 	gopkg.in/tylerb/graceful.v1 v1.2.15
-	gopkg.in/yaml.v2 v2.2.2
+	gopkg.in/yaml.v2 v2.2.8
 	gopkg.in/yaml.v3 v3.0.0-20200121175148-a6ecf24a6d71
 	launchpad.net/gocheck v0.0.0-20140225173054-000000000087 // indirect
 )
